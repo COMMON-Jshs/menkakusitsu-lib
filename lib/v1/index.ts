@@ -8,3 +8,4 @@ export * from "./specialroom";
 export * from "./timetable";
 export * from "./user";
 export * from "./mastercode";
+export * from "./elecdevice";
