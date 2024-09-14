@@ -21,18 +21,18 @@ export interface DeviceInfo {
     value: string;
 }
 
-export interface GetElecDeviceManagerRequest {
+export interface GetDeviceManagerRequest {
     when: string;
 }
 
-export interface GetElecDeviceManagerResponse extends DefaultResponse {
+export interface GetDeviceManagerResponse extends DefaultResponse {
     manager: UserInfo;
 }
 
-export interface GetElecDeviceInfoRequest {}
+export interface GetDeviceInfoRequest {}
 
-export interface GetElecDeviceInfoResponse extends DefaultResponse {
-    locationInfo: DeviceInfo[];
+export interface GetDeviceInfoResponse extends DefaultResponse {
+    information: DeviceInfo[];
 }
 
 export interface PurposeElecDeviceInfo {

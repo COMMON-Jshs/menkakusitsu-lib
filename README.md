@@ -16,4 +16,9 @@
 ## npm 패키지 올리는 법
 
 1. `npm run build` 실행
-2. `npm publish` 실행
+2. `npm version 1.14.??` 새로운 버전으로 설정
+3. `npm publish` 실행
+
+
+
+## 권한 에러인 경우 계정 등록 필요 .
